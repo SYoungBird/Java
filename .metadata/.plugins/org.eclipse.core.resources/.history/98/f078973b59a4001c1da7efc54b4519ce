@@ -1,0 +1,12 @@
+
+public class SOP3 {
+
+	public static void main(String[] args) {
+		char a='갃';
+		a++;
+		int ia=(int)a;
+		System.out.println(ia);
+		System.out.println(a);
+		//한글 등 동아시아권 문자가 포함된 콘티세트 'UTF-8'이 필요함
+	}
+}

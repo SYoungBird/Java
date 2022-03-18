@@ -1,0 +1,23 @@
+package OP2;
+
+public class SOP1 {
+
+	public static void main(String[] args) {
+		//동시에 여러 변수 생성
+		int a;
+		int b;
+		int c;
+		int d, e, f;
+		//변수 초기화
+		int g;
+		g=10;
+		int h=10;
+		//증감대입 연산
+		int i=3;
+		//i=i+2; // <<같음   i+=2;
+		//i-=2; // <<같음 i+i-2;
+		i*=2;
+		System.out.println(i);
+	}
+
+}

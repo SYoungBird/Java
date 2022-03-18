@@ -1,0 +1,43 @@
+package OP;
+
+public class d0315 {
+
+	public static void main(String[] args) {
+		//연산자 복습
+		//단항연산자, 이항연산자, 삼항연산자
+		
+		//대입연산자 : =
+		int a;
+		a=3;
+		//부정연산자 : !
+		//!=  << 같지않다
+		//=!a  << !뒤에 오는 'a'를 반전시켜 대입
+		boolean test;
+		test = true;
+		boolean test2;
+		test2=!test;
+		System.out.println(test2);
+		//증감연산자 : ++, --
+		//++,--  << 한단위 더하거나 빼는
+		a++;
+		System.out.println(a);
+		//산술연산자 : +, -, *, /, %
+		// % : 나머지, 나누기 이후 남은 값을 계산
+		System.out.println(10%7);
+		System.out.println(3+"에 "+5+"를 더하면 "+(3+5)+"입니다.");
+		//비교연산자 : <, >, <=, >=, ==, !=
+		//논리연산자 : &&(and), ||(or) <<  and(~이고 ~이다) 둘 다 맞아야함
+		//								or(~이거나 ~이다) 둘 중 하나만 맞으면 OK
+		boolean t;
+		boolean f;
+		t= 5>3;
+		f= 7>10;
+		System.out.println("t값은 "+t+", f값은 " +f);
+		boolean result;
+		result = t&&f;
+		System.out.println("t&&f의 값은 "+result);
+		System.out.println("t||f의 값은 "+result);
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package OP2;
+
+public class SOP2 {
+
+	public static void main(String[] args) {
+		int a=5;
+		int b;
+		
+		b=a++;//(b에다 a를 먼저 대입)
+		System.out.println("b=a++; a값:"+a+",b값:"+b);
+		
+		a=5;
+		b=++a;//(++a를 한 값을 b에 대입)
+		System.out.println("b=++a; a값:"+a+",b값:"+b);
+		
+		//강제 형변환(캐스팅)
+		//저장할변수=(변경할타입)변경할변수;
+		float f=1.1234f;
+		int i;
+		i=(int)f;
+		System.out.println(i);
+		f=i;
+		System.out.println(f);
+	}
+
+}

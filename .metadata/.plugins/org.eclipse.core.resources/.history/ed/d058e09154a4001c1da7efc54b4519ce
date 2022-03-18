@@ -1,0 +1,17 @@
+package OP2;
+
+public class SOP2 {
+
+	public static void main(String[] args) {
+		int a=5;
+		int b;
+		
+		b=a++;//(b에다 a를 먼저 대입)
+		System.out.println("b=a++; a값:"+a+",b값:"+b);
+		
+		a=5;
+		b=++a;//(++a를 한 값을 b에 대입)
+		System.out.println("b=++a; a값:"+a+",b값:"+b);
+	}
+
+}

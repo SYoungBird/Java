@@ -1,0 +1,22 @@
+package example;
+
+public class Nazalnan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int python = 60;
+		int java = 70;
+		int android = 80;
+		int c = 50;
+		int cpp= 30;
+		
+		int scoreSum = python + java + android + android + c + cpp;
+		System.out.printf("나잘난의 성정 총합계는 %d 입니다.",scoreSum);
+		
+		float scoreAvg = scoreSum/5 ;
+		System.out.println("평균은 " + scoreAvg+ " 입니다.");
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package OP2;
+
+public class SOP2 {
+
+	public static void main(String[] args) {
+		int a=5;
+		int b;
+		
+		b=++a;
+		System.out.println("b=a++; a°ª:"+a+",b°ª:"+b);
+	}
+
+}

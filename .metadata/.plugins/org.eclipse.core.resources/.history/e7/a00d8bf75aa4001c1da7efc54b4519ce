@@ -1,0 +1,14 @@
+package COND;
+
+public class IF {
+
+	public static void main(String[] args) {
+		//if문 : 조건문, 조건에 따라 동작여부를 결정하는 문법
+		//*X5,000,000 이해가 안가도 반드시 암기할 것
+		//if(조건) {조건이 true일 경우 수행할 문장;}
+		if(true) {
+			System.out.println("조건이 만족되어 동작합니다.");
+		}
+	}
+
+}

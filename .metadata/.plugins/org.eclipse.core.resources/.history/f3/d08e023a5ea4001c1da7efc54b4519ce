@@ -1,0 +1,24 @@
+package COND;
+
+public class IF_ELSE {
+
+	public static void main(String[] args) {
+		//if-else문 : 조건문, 조건의 참, 거짓에 따라 다른 내용을 실행
+		/*
+		if(조건){
+			true일 때 수행할 문장;
+		}else{
+			false일 때 수행할 문장;
+		}
+		 */
+		int visit=0;
+		if(visit<10) {
+			System.out.println("자주 방문해 주세요");
+			if(visit==0) {
+				System.out.println("처음 오셨네요! 환영합니다.");
+			}//if2
+		}else {
+			System.out.println("다시 방문해 주셔서 감사합니다.");
+		}//if
+	}//main
+}//class

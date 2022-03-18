@@ -1,0 +1,24 @@
+package example;
+
+public class Control12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int gender = 3; //3, 4
+		
+		//gender가 3인 경우 "남자"로 출력
+		//gender가 4인 경우 "여자"로 출력
+		
+		if(gender / 2 == 0)
+		{
+			System.out.println("여자");
+		}
+		
+		else
+		{
+			System.out.println("남자");
+		}
+	}
+
+}

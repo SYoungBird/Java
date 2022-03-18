@@ -1,0 +1,10 @@
+
+public class SOP3 {
+
+	public static void main(String[] args) {
+		char a='°¡';
+		int ia=(int)a;
+		System.out.println(ia);
+		System.out.println(a);
+	}
+}

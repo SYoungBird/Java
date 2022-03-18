@@ -1,0 +1,9 @@
+
+public class SOP3 {
+
+	public static void main(String[] args) {
+		char a='a';
+		int ia=(int)a;
+		System.out.println(ia);
+	}
+}

@@ -1,0 +1,15 @@
+package OP;
+
+public class op3 {
+
+	public static void main(String[] args) {
+		//삼항 연산자 : 논리적 판단의 결과에 따라 다른 값을 사용
+		//(조건)?참:거짓;
+		int i;
+		String s;
+		i=10;
+		s=(i>=0)?"양수":"음수";
+		System.out.println(s);
+	}
+
+}
